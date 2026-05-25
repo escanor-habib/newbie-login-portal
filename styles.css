@@ -1,0 +1,144 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1384a7;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    height: 800px;
+    border-radius: 20px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+
+}
+h1 {
+    text-align: center;
+    color: #1384a7;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.welcome {
+    text-align: center;
+    color: #1384a7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    color: #1384a7;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #110d0d;
+    border-radius: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: transform 0.3s ease;
+}
+input:focus {
+    border-bottom-color: #1384a7;
+    outline: none; 
+}
+input:hover {
+    border-bottom-color: #1384a7;
+    transform: scale(1.05);
+}
+a {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #1384a7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+a:hover {
+    background-color: #87c5db;
+}
+
+
+.transfer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: left;
+    color: #333;
+    background-color: rgb(193, 247, 247);
+    border: 3px solid #110d0d;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    transition: transform 0.3s ease;
+}
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: auto;
+}
+.transfer:hover {
+    transform: scale(1.02);
+}
+.transfer .cta-button {
+    display: inline;
+    text-align: center;
+    color: #0a0202;
+    background-color: transparent;
+    text-decoration: none;
+}
+.forgot-password {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: small;
+}
+.forgot-password .here {
+    display: inline;
+    color: #0a0202;
+    background-color: transparent;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.contact {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-family: cursive;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.contact a {
+    display: inline;
+    color: #0a0202;
+    background-color: transparent;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+
+

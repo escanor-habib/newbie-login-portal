@@ -1,0 +1,215 @@
+
+/* interuniversity css */
+.body-apply {
+    background: linear-gradient(
+    135deg,         /* Angle */
+    green,          /* First color */
+    lightblue,      /* Middle color */
+    darkblue        /* Last color */
+  );
+    padding: 10px;
+    color: rgb(126, 124, 122);
+
+}
+.container-apply {
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    width: 500px;
+    height: 850px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px lightgray;
+}
+.logo-apply {
+    box-sizing: border-box;
+    width: 100px;
+    margin-top: 0;
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px lightgray;
+}
+h1 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: rgb(90, 206, 245);
+    font-family: cursive;
+    font-size: 25px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-acc-uni-apply {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+
+}
+.hero .f-c input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(240, 241, 241);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color: rgb(21, 119, 119);
+    font-size: 15px;
+}
+.hero .s-c input {
+     width: 90%;
+     padding: 10px;
+     margin: 10px 0;
+     background-color: rgb(240, 241, 241);
+     border-left: none;
+     border-top: none;
+     border-right: none;
+     border-radius: 5px;
+     transition: border-color 0.3s ease;
+     color: rgb(21, 119, 119);
+     font-size: 15px;
+}
+.hero .s-c input:hover{
+    border-color: #007bff;
+    
+}
+.hero .s-c input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.hero .f-c input:hover{
+    border-color: #007bff;
+}
+.hero .f-c input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+label {
+    align-self: flex-start;
+    margin-left: 10px;
+    color: rgb(21, 119, 119);
+    margin-top: 10px;
+}
+input {
+    margin-left: 0;
+    color: rgb(21, 119, 119);
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+     background-color: rgb(240, 241, 241);
+     border-left: none;
+     border-top: none;
+     border-right: none;
+     border-radius: 5px;
+     transition: border-color 0.3s ease;
+     color: rgb(21, 119, 119);
+     font-size: 15px;
+     margin-bottom: 10px;
+     
+}
+input:hover {
+    border-color: #007bff;
+}
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+small{
+    color: red;
+    margin-top: 0;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+     background-color: rgb(240, 241, 241);
+     border-left: none;
+     border-top: none;
+     border-right: none;
+     border-radius: 5px;
+     transition: border-color 0.3s ease;
+     color: rgb(21, 119, 119);
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+select:hover {
+    border-color: #007bff;
+}
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: linear-gradient(
+    135deg,         /* Angle */
+    green,          /* First color */
+    lightblue,      /* Middle color */
+    darkblue        /* Last color */
+  );
+    transition: filter 0.3s ease;
+}
+.btn:hover {
+    filter: brightness(1.2);
+}
+.alhaa {
+    margin-top: 20px;
+    color: rgb(21, 119, 119);
+}
+.alhaa {
+    color: rgb(21, 119, 119);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container-apply {
+        width: 90%;
+        height: auto;
+    }
+    .hero {
+        grid-template-columns: 1fr;
+    }
+    .hero .f-c input,
+    .hero .s-c input {
+        width: 95%;
+    }
+}
